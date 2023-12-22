@@ -15,6 +15,7 @@
     --white: white;
     --bkg: radial-gradient(rgb(235, 235, 241) 80%, rgb(207, 205, 205))  no-repeat;
     --btn-bkg: linear-gradient(45deg, rgb(255, 255, 255), rgb(216, 216, 216));
+    --btn-bkg-hover: linear-gradient(45deg, rgb(216, 216, 216),  rgb(255, 255, 255));
 
     font-family: 'DM Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -24,6 +25,10 @@
 body{
     background: radial-gradient(rgb(235, 235, 241) 80%, rgb(207, 205, 205))  no-repeat;
 }
+
+
+/* navegador */
+
 
 .nav-container {
 
@@ -42,6 +47,7 @@ body{
     font-size: 25px;
     font-weight: 700;
     color: var(--primary-color);
+    cursor: pointer;
 }
 
 .nav-list {
@@ -51,6 +57,7 @@ body{
     align-items: center;
     gap: 30px;
     color: var(--primary-color);
+    cursor: pointer;
 
 }
 
@@ -62,5 +69,10 @@ body{
     background-color: var(--white);
     border-radius: 4px;
     background: var(--btn-bkg);
+    cursor: pointer;
 
+}
+
+.nav-btn:hover{
+    background:var(--btn-bkg-hover);
 }
