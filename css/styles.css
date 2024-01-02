@@ -191,7 +191,7 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 30px;
     width: 80%;
     margin: auto;
 }
@@ -233,4 +233,175 @@ h2 {
     font-weight: 500;
     text-align: left;
     font-size: 15px;
+}
+
+/* My Resume*/
+
+ .container-resume {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+}
+
+.container-resume-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-resume-text span {
+    font-size: smaller;
+    color: var(--second-color);
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.nav-resume {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    background: var(--bkg);
+    justify-content: space-between;
+    width: 750px;
+    height: 50px;
+    align-items: center;
+    padding: 20px;
+    font-size: medium;
+    border-radius: 15px;
+    font-weight: 450;
+
+}
+
+.resume-li:hover {
+    color: var(--second-color);
+    background-color: var(--white);
+    border-radius: 4px;
+    background: var(--btn-bkg);
+    cursor: pointer;
+    box-shadow: var(--shadow-box), 0 -4px -8px rgb(255, 255, 255);
+
+}
+
+.container-articles{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    
+}
+
+.container-articles .article{
+    display: flex;
+    flex-direction: column;
+}
+
+.article .card-texts {
+    width: 44%;
+    background: var(--bkg);
+    border-radius: 7px;
+    padding: 25px;
+    margin: 20px;
+}
+
+
+
+.subtitles-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.squad-details {
+    color: var(--second-color);
+    background: var(--bkg);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+
+
+/*Form*/
+
+.contact-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px;
+}
+
+.container-under-titles {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 50px;
+}
+
+.title-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.title-form {
+    font-size: smaller;
+    color: var(--second-color);
+    font-weight: 600;
+    margin-top: 30px;
+
+
+
+}
+
+.contact-card {
+    width: 40%;
+    background: var(--bkg);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    height: 500px;
+
+}
+
+.contact-card div img {
+    width: 250px;
+
+}
+
+.logos-contact {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logos-img img {
+    width: 25px;
+
+}
+
+/*form right side*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: var(--bkg);
+    width: 60%;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    height: 500px;
+
 }
