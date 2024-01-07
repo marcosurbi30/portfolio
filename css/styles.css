@@ -404,7 +404,7 @@ h2 {
 .contact-container {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 65%;
     padding: 30px 30px;
     margin: auto;
     margin-top: 80px;
@@ -436,10 +436,14 @@ h2 {
     margin-top: 30px;
 }
 
+
+
+/*left side*/
+
 .contact-card {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
     background: var(--bkg);
     box-shadow: var(--shadow-box);
     text-align: center;
@@ -450,27 +454,46 @@ h2 {
 }
 
 .contact-card div img {
-    width: 200px;
+    width: 260px;
+    margin: auto;
     box-shadow: var(--shadow-box);
+    border-radius: 8px;
+}
+
+.under-image {
+    text-align: left;
+    margin: 15px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.find-me{
+    text-align: left;
+    margin-top: 15px;
 }
 
 .logos-contact {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
-.logos-img img {
-    width: 25px;
+.logos-img {
+    background: var(--bkg);
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    box-shadow: var(--shadow-box);
 }
+
 
 /*form right side*/
 
 .form {
     background: var(--bkg);
     box-shadow: var(--shadow-box);
-    width: 100%;
+    width: 60%;
     flex-wrap: wrap;
-    text-align: center;
     padding: 15px;
     border-radius: 10px;
     height: 500px;
