@@ -31,3 +31,14 @@ function mostrar (){
 
 boton.addEventListener ('click', mostrar);
 
+
+
+/* Mensaje de "Enviado con éxito" en el formulario:   */ 
+
+function generarAlerta (){
+    alert ('Enviado con exito')
+};
+
+let send = document.getElementById('btn');
+
+send.addEventListener ('click', generarAlerta);
