@@ -47,3 +47,23 @@ send.addEventListener ('click', generarAlerta);
 
 /* Slider para las cards en la sección "What I Do" */
 
+var currentSlide = 0;
+var slides = document.querySelectorAll('.slides .box');
+
+function showSlide(n) {
+    slides.forEach(slide => {
+        slide.style.transform = `translateX(-${n * 100}%)`;
+    });
+}
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+}
+
+function prevSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+}
+
+showSlide(currentSlide);

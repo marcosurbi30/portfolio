@@ -268,11 +268,20 @@ main article p {
     margin-top: 80px;
 }
 
+.slider {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
 
 .features-boxes {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 300px;
     justify-content: center;
     gap: 30px;
     width: 100%;
@@ -289,6 +298,8 @@ main article p {
     margin-top: 20px;
     align-items: center;
     text-align: left;
+    
+    transition: transform 0.5s ease;
 }
 
 .features-boxes .box div img {
@@ -308,6 +319,22 @@ main article p {
     font-size: smaller;
 }
 
+.features-boxes button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
 
 
 
