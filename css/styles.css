@@ -19,9 +19,7 @@
 
     /*features*/
 
-    .features-boxes{
 
-    }
 
     /*My Resume*/
 
@@ -376,6 +374,18 @@ main article p {
     text-align: left;
     font-size: 15px;
 }
+.ocultar {
+    display: none;
+}
+
+.visible {
+    display: inline;
+}
+
+
+
+
+
 
 /* My Resume*/
 
