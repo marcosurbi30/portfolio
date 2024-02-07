@@ -1,6 +1,6 @@
 
 
-/*  Efecto de cambio de imagen:   */ 
+/*  Efecto de cambio de imagen   */ 
 
 let photoMe  = document.getElementById ('image');
 
@@ -17,7 +17,7 @@ function mouseOut (){
 image.addEventListener ('mouseout', mouseOut);
 
 
-/* Mostrar más información en la sección de My Portfolio:  */
+/* Mostrar más información en la sección de My Portfolio  */
 
 function mostrar (){
     let textoAdicional = document.getElementById ('textoAdicional');
@@ -33,7 +33,7 @@ boton.addEventListener ('click', mostrar);
 
 
 
-/* Mensaje de "Enviado con éxito" en el formulario:   */ 
+/* Mensaje de "Enviado con éxito" en el formulario  */ 
 
 function generarAlerta (){
     alert ('Enviado con exito')
@@ -42,3 +42,8 @@ function generarAlerta (){
 let send = document.getElementById('btn');
 
 send.addEventListener ('click', generarAlerta);
+
+
+
+/* Slider para las cards en la sección "What I Do" */
+
